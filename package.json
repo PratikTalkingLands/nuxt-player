@@ -1,7 +1,7 @@
 {
   "name": "nuxt-player",
   "private": false,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "keywords": ["nuxt", "components", "ui", "vue", "carousel", "player", "autoplay"],
   "files": [
     "dist",

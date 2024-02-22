@@ -51,7 +51,7 @@
   </template>
   
   <script setup>
-  import { ref, computed } from 'vue';
+  import { ref, computed, defineProps } from 'vue';
   
   const props = defineProps(["items"])
   const items = props?.items
