@@ -7,7 +7,7 @@
           <p class="w-100">{{ currentItem.description }}</p>
         </div>
       </div>
-      <v-progress-linear color="primary" :model-value="progressPercentage"></v-progress-linear>
+      <v-progress-linear v-if="stopButtonVisible" color="primary" :model-value="progressPercentage"></v-progress-linear>
       <div class="h-10 w-100 d-flex justify-space-between px-3">
         <div class="h-100 d-flex align-center ga-3">
           <v-btn

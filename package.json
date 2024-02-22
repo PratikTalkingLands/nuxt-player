@@ -1,7 +1,7 @@
 {
   "name": "nuxt-player",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "keywords": ["nuxt", "components", "ui", "vue", "carousel", "player", "autoplay"],
   "files": [
     "dist",
@@ -11,6 +11,7 @@
     "type": "git",
     "url": ""
   },
+  "main": "dist/index.js",
   "author": "Pratik Chakraborty",
   "license": "MIT",
   "scripts": {
